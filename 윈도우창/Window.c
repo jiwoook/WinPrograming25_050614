@@ -2,6 +2,7 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_WARNINGS
 
+
 void gotoxy(int x, int y)
 {
     COORD Cur;
@@ -37,5 +38,7 @@ int main() {
 
     DrawWindow(width, height);
 
+    gotoxy(2, 3);
+    choice = _getch();
     return 0;
 }

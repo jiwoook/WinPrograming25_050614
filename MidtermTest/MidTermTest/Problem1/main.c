@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+// PassOrFail 함수 정의
 int PassOrFail(int score) {
     if (score >= 50) {
         return 1;

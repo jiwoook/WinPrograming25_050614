@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int PassOrFail(int score) {
     if (score >= 50) {
         return 1;

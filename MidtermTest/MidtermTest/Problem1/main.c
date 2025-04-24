@@ -6,7 +6,7 @@ int PassOrFail(int score) {
         return 1;
     }
     else {
-        return 0; // Fail
+        return 0;
     }
 }
 
